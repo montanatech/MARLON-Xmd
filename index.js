@@ -10,7 +10,7 @@ import {
     DisconnectReason,
     useMultiFileAuthState,
 } from '@whiskeysockets/baileys';
-import { Handler, Callupdate, GroupUpdate } from './joelXtec/event/index.js';
+import { Handler, Callupdate, GroupUpdate } from './marlon/index.js';
 import express from 'express';
 import pino from 'pino';
 import fs from 'fs';
@@ -120,17 +120,14 @@ Matrix.ev.on('connection.update', (update) => {
             Matrix.sendMessage(Matrix.user.id, { 
                 image: { url: "https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg" }, 
                 caption: `*╭─────────────━┈⊷*
-*│ ᴊᴏᴇʟ-xᴍᴅ-ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴs*
+*│ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴs*
 *╰─────────────━┈⊷*
 
 *╭─────────────━┈⊷*
-*│ᴊᴏᴇʟ xᴍᴅ ɪs ᴏɴʟɪɴᴇ*
 *│ᴘʀᴇғɪx : [${config.PREFIX}*]
 *│ᴍᴏᴅᴇ :[ ${config.MODE}*]
 *│ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ*
-*╰─────────────━┈⊷*
-
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ ᴀxᴍᴀɪ*`
+*╰─────────────━┈⊷*`
             });
             initialConnection = false;
         } else {
