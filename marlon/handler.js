@@ -1,8 +1,8 @@
-import { serialize, decodeJid } from '../../lib/Serializer.js';
+import { serialize, decodeJid } from '../lib/Serializer.js';
 import path from 'path';
 import fs from 'fs/promises';
-import config from '../../config.cjs';
-import { smsg } from '../../lib/myfunc.cjs';
+import config from '../config.cjs';
+import { smsg } from '../lib/myfunc.cjs';
 import { handleAntilink } from './antilink.js';
 import { fileURLToPath } from 'url';
 
@@ -65,7 +65,7 @@ const Handler = async (chatUpdate, sock, logger) => {
         const { isGroup, type, sender, from, body } = m;
         console.log(m);
 
-        const pluginDir = path.join(__dirname, '..', 'joelXbot');
+        const pluginDir = path.join(__dirname, '..', 'commandes');
         const pluginFiles = await fs.readdir(pluginDir);
 
         for (const file of pluginFiles) {
