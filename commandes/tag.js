@@ -75,5 +75,5 @@ const tagall = async (m, gss) => {
     await m.reply('яєρℓу α мєѕѕαgє {кєєр υѕιηg ʝσєℓ χ∂ ν тняєє вσт.');
   }
 };
-// codes by lord joel 
+// codes by Montana Marlon
 export default tagall;
