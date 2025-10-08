@@ -1,12 +1,12 @@
 
 
-#!/usr/joelXtech
+#!/usr/MontanaXtech
 
 """
-Author             : Lord joel amaxmai
-contact            : joeljamestech3@gmail.com
-Github             : https://github.com/joeljamesXtech2
-my youtube channel : Youtube.com/@joeljamestech255
+Author             : montana marlon
+contact            : montanatech16@gmail.com 
+Github             : https://github.com/montanatech/MARLON-Xmd
+my youtube channel : Youtube.com/MontanaXtech
 
 subcribe my youtube Channel to learn ethical Hacking ^_^
 """
