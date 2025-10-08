@@ -1,6 +1,6 @@
 name: marlon-xmd
 services:
-  - name: marlom-xmd-service
+  - name: marlon-xmd-service
     type: web
     ports:
       - 5000
