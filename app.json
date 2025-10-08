@@ -5,7 +5,7 @@
     "whatsapp bot"
   ],
   "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg",
-  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
+  "repository": "https://github.com/montanatech/MARLON-Xmd",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
