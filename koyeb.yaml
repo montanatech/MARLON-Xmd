@@ -1,6 +1,6 @@
-name: joel-md
+name: marlon-xmd
 services:
-  - name: joel-md-service
+  - name: marlom-xmd-service
     type: web
     ports:
       - 5000
