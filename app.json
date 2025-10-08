@@ -64,7 +64,7 @@
       "value": "false"
     },
     "AUTO_BLOCK": {
-      "description": "make it true if you want bot to auto block only 212 numbers",
+      "description": "make it true if you want bot to auto block only 254numbers",
       "required": false,
       "value": ""
     },
