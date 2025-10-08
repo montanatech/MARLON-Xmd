@@ -1,16 +1,16 @@
 {
-  "name": " ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
+  "name": " Mᴀʀʟᴏɴ xᴍᴅ ʙᴏᴛ",
   "version": "10.8.1",
-  "description": "Joel James tech inc",
+  "description": "Mᴀʀʟᴏɴ tech inc",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name  ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
-    "stop": "pm2 stop  ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
-    "restart": "pm2 restart  ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ"
+    "start": "pm2 start index.js --deep-monitoring --attach --name  Mᴀʀʟᴏɴ xᴍᴅ ʙᴏᴛ",
+    "stop": "pm2 stop  Mᴀʀʟᴏɴ xᴍᴅ ʙᴏᴛ",
+    "restart": "pm2 restart  Mᴀʀʟᴏɴ xᴍᴅ ʙᴏᴛ"
   },
-  "keywords": ["lord-joel", "whatsapp-bot", "whatsapp md bot"],
-  "author": " ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
+  "keywords": ["Mᴏɴᴛᴀɴᴀ-ᴍᴀʀʟᴏɴ", "whatsapp-bot", "whatsapp md bot"],
+  "author": " ᴍᴀʀʟᴏɴ xᴍᴅ ʙᴏᴛ",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
