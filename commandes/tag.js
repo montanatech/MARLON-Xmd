@@ -72,7 +72,7 @@ const tagall = async (m, gss) => {
 
   } catch (error) {
     console.error('Error:', error);
-    await m.reply('яєρℓу α мєѕѕαgє {кєєр υѕιηg ʝσєℓ χ∂ ν тняєє вσт.');
+    await m.reply('яєρℓу α мєѕѕαgє {Kᴇᴇᴘ ᴜsɪɴɢ ᴊᴏᴇʟ Xᴅ ᴠ ᴛʜʀᴇᴇ Bᴏᴛ.');
   }
 };
 // codes by Montana Marlon
