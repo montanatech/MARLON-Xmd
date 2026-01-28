@@ -58,7 +58,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("JOEL-XMD~")[1];
+    const sessdata = config.SESSION_ID.split("Marlon-XMD~")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -97,7 +97,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["JOEL-MD", "safari", "3.3"],
+            browser: ["Marlon-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -126,7 +126,7 @@ Matrix.ev.on('connection.update', (update) => {
 *╭─────────────━┈⊷*
 *│ᴘʀᴇғɪx : [${config.PREFIX}*]
 *│ᴍᴏᴅᴇ :[ ${config.MODE}*]
-*│ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ*
+*│ᴏᴡɴᴇʀ: Marlon Montana*
 *╰─────────────━┈⊷*`
             });
             initialConnection = false;
